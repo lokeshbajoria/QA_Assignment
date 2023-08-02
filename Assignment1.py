@@ -68,12 +68,11 @@ def main():
                 else:
                     print("Data not found for the given date.")
 
-            elif option == "0":
+            else:
                 print("Exiting the program.")
                 break
 
-            else:
-                print("Invalid option. Please try again.")
+ 
 
 if __name__ == "__main__":
     main()
